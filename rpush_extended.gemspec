@@ -3,11 +3,11 @@ $LOAD_PATH.push File.expand_path("../lib", __FILE__)
 require "rpush/version"
 
 Gem::Specification.new do |s|
-  s.name        = "rpush"
+  s.name        = "rpush_extended"
   s.version     = Rpush::VERSION
-  s.authors     = ["Ian Leitch"]
-  s.email       = ["port001@gmail.com"]
-  s.homepage    = "https://github.com/rpush/rpush"
+  s.authors     = ["Ian Leitch", 'Chris Okamoto']
+  s.email       = ['christiane.okamoto@gmail.com']
+  s.homepage    = "https://github.com/chrisokamoto/rpush_extended"
   s.summary     = 'The push notification service for Ruby.'
   s.description = 'The push notification service for Ruby.'
   s.license     = 'MIT'
